@@ -55,7 +55,7 @@
 
       <div class='table_div'>
         <table class="table">
-          <thead class="thead-red">
+          <thead class="thead-red" style="background-color: #fffacd;">
             <tr>
               <th scope="col">ID</th>
               <th scope="col">Vrsta plesa</th>
@@ -130,17 +130,6 @@
 
       if(filter != "") {
         terminiFiltrirano = termini.filter((element) => element.prostorija == filter);
-      }
-      napuniTabelu(terminiFiltrirano);
-    }
-
-    function funkcijaZaPretragu3() {
-      input = document.getElementById("polaznik");
-      filter = input.value;
-      terminiFiltrirano = termini;
-
-      if(filter != "") {
-        terminiFiltrirano = termini.filter((element) => element.polaznik == filter);
       }
       napuniTabelu(terminiFiltrirano);
     }

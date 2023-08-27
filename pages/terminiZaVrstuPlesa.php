@@ -52,9 +52,9 @@
 
         </div>
         <div class="modal-footer align_center">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
-          <button type="button" class="btn btn-primary" data-dismiss="modal" id="button_sacuvaj">Sacuvaj</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal" hidden id="button_delete">Obrisi</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #bdb76b;">Zatvori</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" id="button_sacuvaj" style="background-color: #f0e68c;">Sacuvaj</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal" hidden id="button_delete" style="background-color: #eee8aa;">Obrisi</button>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@
 
       <div class='table_div'>
         <table class="table table-hover">
-          <thead class="thead-red">
+          <thead class="thead-red" style="background-color: #fffacd;">
             <tr>
               <th scope="col">ID</th>
               <th scope="col">Polaznik</th>
@@ -93,8 +93,8 @@
       </div>
 
       <div class="button_div1">
-        <button data-toggle="modal" data-target="#exampleModal" data-backdrop="static" data-id='-1'
-          class="btn btn-secondary btn-lg btn-block">NOVI TERMIN</button>
+        <button data-toggle="modal" data-target="#exampleModal" data-backdrop="static" style="background-color: #bdb76b;" data-id='-1'
+          class="btn btn-secondary btn-lg btn-block">Dodaj novi termin</button>
       </div>
 
     </div>
